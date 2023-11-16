@@ -1,0 +1,139 @@
+.DiscoverContainer {
+    position: relative;
+    top: 4rem;
+    background: #fff;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.DiscoverMainDiv1 {
+    background: linear-gradient(#fff, black);
+    height: 50rem;
+    width: 50rem;
+    border-right: 2px double black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MercedesHeaderDiscover {
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.MerBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Mercedes3DButton {
+    height: 3rem;
+    background: #fff!important;
+    color: black!important;
+    border: 5px double black!important;
+    width: 8rem!important;
+}
+
+
+
+.DiscoverMainDiv2 {
+    display: flex;
+    background: black;
+    height: 50rem;
+    width: 50rem;
+    border-right: 2px double black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.MayBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Maybach3DButton {
+    height: 3rem;
+    background: black!important;
+    border: 5px double #a28834!important;
+}
+
+.Maybach3DButton:hover {
+    box-shadow: 0px 0px 30px 2px #a28834!important;
+}
+
+.MaybachHeaderDiscover {
+        font-size: 8rem;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 0.5rem;
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg, #fff, black,  #a28834);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        animation: textclip 15s linear infinite;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        
+}
+
+
+
+.DiscoverMainDiv3 {
+    display: flex;
+    background: linear-gradient(darkblue, black);
+    height: 50rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AMGHeaderDiscover {
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.AMGBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AMG3DButton {
+    height: 3rem;
+    background: #fff!important;
+    color: black!important;
+    border: 5px double black!important;
+}
+
+
+
+
+
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }

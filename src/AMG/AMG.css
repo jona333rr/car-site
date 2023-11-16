@@ -1,0 +1,136 @@
+.AMGCarContainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 4rem;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    max-height: 100vh;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.AMGsDiv {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20rem;
+    justify-content: center;
+
+}
+
+.AMGHeader1 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+
+.AMGTitel {
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #fff,black);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+
+
+.Car2DivInside2 {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.Car4Div {
+    border: 6px double #0093af;
+    box-shadow: 0px 20px 25px 0px black;
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  0.5rem 0.5rem 2rem 2rem;
+    background: black;
+}
+
+.Car4DivInside {
+    border: 2px solid #0093af;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+}
+
+
+.ViewCarButton4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 9rem;
+    border: 2px solid #0093af;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    background: black;
+    color: #fff;
+    overflow: hidden; 
+    margin-top: 0.5rem;
+}
+
+.ViewCarButton4::after {
+    content: "View";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 2rem;
+    width: 9rem;
+    z-index: 10;
+    background: #0093af;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.3s, opacity 0.3s; 
+    transform: translateY(100%); 
+}
+
+.ViewCarButton4:hover::after {
+    transform: translateY(0); 
+    opacity: 1; 
+}

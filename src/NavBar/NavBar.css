@@ -1,0 +1,114 @@
+.NavBarContainer {
+   /* border-bottom: 0.01rem solid #fff; */
+    height: 4rem;
+    width: 99.81%;
+    background: transparent;
+    position: fixed;
+    display: flex;
+}
+
+.NavBarButtons1 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+
+.dropDownModels {
+    width: 20rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+
+
+
+
+
+.ModelsBtn {
+    width: 7rem!important;
+    height: 2rem;
+    background: transparent;
+    color: #fff!important;
+    font-size: 1.1rem!important;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif!important;
+    letter-spacing: 0.1rem!important;
+}
+
+.ModelsBtnAMG {
+    width: 2rem!important;
+    height: 2rem;
+    background: transparent;
+    color: #fff!important;
+    font-size: 1.1rem!important;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif!important;
+    letter-spacing: 0.1rem!important;
+}
+
+.ModelsBtnAMG:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+.ModelsBtn:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+
+.HomeBtn {
+    width: 10rem!important;
+    height: 2rem;
+    background: transparent;
+    color: #fff!important;
+    font-size: 1.1rem!important;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif!important;
+    letter-spacing: 0.1rem!important;
+}
+
+.HomeBtn:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff!important;
+}
+
+
+.ShowroomBtn {
+    width: 10rem!important;
+    height: 2rem;
+    background: transparent;
+    color: #fff!important;
+    font-size: 1.1rem!important;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif!important;
+    letter-spacing: 0.1rem!important;
+}
+
+.ShowroomBtn:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff!important;
+}
+
+
+.DiscoverBtn {
+    width: 7rem;
+    height: 2rem;
+    background: transparent;
+    color: #fff;
+    font-size: 1.1rem;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.DiscoverBtn:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}

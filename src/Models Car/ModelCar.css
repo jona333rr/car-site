@@ -1,0 +1,342 @@
+
+
+/*Used for the main DIV and the header*/
+.ModelCarContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 4rem;
+    flex-direction: column;
+    width: 100%;
+    background: #fff
+}
+
+
+.carHeader1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.MaybachHeader {
+    position: absolute;
+    top: 52%;
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+.AMGHeader {
+    position: absolute;
+    top: 78%;
+    font-size: 4rem;
+    color: #fff;
+}
+
+
+
+
+.MercedesHeader {
+    font-size: 10rem;
+    
+}
+
+
+
+
+
+
+/* Used for the individual cards */
+
+
+.ModelsDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+hr {
+    color: black;
+    width: 15rem;
+}
+
+.Car1Div {
+    border: 6px double black;
+    box-shadow: 1px 1px 2px 3px black;
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.Car1DivInside {
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+}
+
+
+.Car1DivImg {
+    width: 100%;
+}
+
+
+.Car1DivInside2 {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.CarInfoPG1 {
+    margin-top: 1rem;
+    word-spacing: 3.5rem;
+}
+
+
+.CarInfoPG2 {
+    word-spacing: 2rem;
+}
+
+
+
+
+
+.ViewCarButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 9rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    color: black;
+    overflow: hidden; 
+    margin-top: 1rem;
+}
+
+.ViewCarButton::after {
+    content: "View";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 2rem;
+    width: 9rem;
+    z-index: 10;
+    background: black;
+    color: white;
+    transition: transform 0.3s, opacity 0.3s; 
+    transform: translateY(100%); 
+}
+
+.ViewCarButton:hover::after {
+    transform: translateY(0); 
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+.Car2Div {
+    border: 6px double #a28834;
+    box-shadow: 0px 20px 25px 0px black;
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  0.5rem 0.5rem 2rem 2rem;
+    background: black;
+}
+
+.Car2DivInside {
+    border: 2px solid #a28834;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+}
+
+.Car1DivImg {
+    width: 100%;
+}
+
+
+.Car2DivInside2 {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ViewCarButton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 9rem;
+    border: 2px solid #a28834;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    background: black;
+    color: #fff;
+    overflow: hidden; 
+    margin-top: 1rem;
+}
+
+.ViewCarButton2::after {
+    content: "View";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 2rem;
+    width: 9rem;
+    z-index: 10;
+    background: #a28834;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.3s, opacity 0.3s; 
+    transform: translateY(100%); 
+}
+
+.ViewCarButton2:hover::after {
+    transform: translateY(0); 
+    opacity: 1; 
+}
+
+
+
+
+
+
+.Car3Div {
+    border: 6px double #a28834;
+    box-shadow: 0px 20px 25px 0px black;
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  0.5rem 0.5rem 2rem 2rem;
+    background: black;
+}
+
+.Car3DivInside {
+    border: 2px solid #a28834;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+}
+
+.Car1DivImg {
+    width: 100%;
+}
+
+
+.Car3DivInside2 {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ViewCarButton3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 9rem;
+    border: 2px solid #a28834;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 1;
+    background: black;
+    color: #fff;
+    overflow: hidden; 
+    margin-top: 0.5rem;
+}
+
+.ViewCarButton3::after {
+    content: "View";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 2rem;
+    width: 9rem;
+    z-index: 10;
+    background: #a28834;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.3s, opacity 0.3s; 
+    transform: translateY(100%); 
+}
+
+.ViewCarButton3:hover::after {
+    transform: translateY(0); 
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CarDiv {
+    border: 6px double black;
+    width: 20rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:  0.5rem 0.5rem 2rem 2rem;
+    background: #fff;
+}
+
+
+
+
